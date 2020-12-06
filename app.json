@@ -1,0 +1,12 @@
+{
+  "name": "react-nearest",
+  "displayName": "react-nearest",
+  "expo": {
+    "name": "react-nearest",
+    "slug": "react-nearest",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
