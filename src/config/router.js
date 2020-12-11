@@ -14,6 +14,8 @@ import {
 import EStyleSheet from 'react-native-extended-stylesheet';
 import { navigationRef } from './rootNavigation';
 
+
+import Login from '../screens/Login';
 import { SideMenu } from '../components/SideMenu';
 import Home from '../screens/Home';
 import ShopDetails from '../screens/ShopDetails';
@@ -120,6 +122,7 @@ class RouterComponent extends Component {
         <Stack.Navigator
           headerMode="none"
         >
+          <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="HomePage" component={props  => this.HomeDrawer(props)} />
           <Stack.Screen name="ShopDetails" component={ShopDetails}/>
           <Stack.Screen name="UserDetails" component={UserDetails}/>
